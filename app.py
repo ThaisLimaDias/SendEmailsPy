@@ -40,7 +40,7 @@ if __name__ == '__main__':
     host = 'smtp.gmail.com'
     port = 587
     username = 'thaislimadiasoriginal@gmail.com'
-    password = 'Thhais..'
+    password = ''
     email_connection = EmailConnection(host, port, username, password)
     email_connection.connect()
     i = 0
