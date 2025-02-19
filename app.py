@@ -39,7 +39,7 @@ class EmailConnection(object):
 if __name__ == '__main__':
     host = 'smtp.gmail.com'
     port = 587
-    username = 'thaislimadiasoriginal@gmail.com'
+    username = 'gmail@gmail.com'
     password = ''
     email_connection = EmailConnection(host, port, username, password)
     email_connection.connect()
@@ -47,9 +47,9 @@ if __name__ == '__main__':
 
     emails = [
               {'gentilico': 'Princesas e Imperatrizes',
-               'email': 'thais_lmdias@hotmail.com'},
+               'email': 'gmail@hotmail.com'},
               {'gentilico': 'De outro Planeta',
-               'email': 'thaislimadiasoriginal@gmail.com'},           
+               'email': 'gmail@gmail.com'},           
     ]
 
     for row in emails:
